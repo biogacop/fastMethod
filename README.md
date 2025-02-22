@@ -12,7 +12,7 @@ We have also included the  models used in the folder 'models' and the computed g
 In order to compute all gMCSs up to a given length for a model, the following steps must be followed:
 - Import the model
 - Import the module FM by writing 'import FM'
-- Set the variable maxLength as the mximun length of the desired gMCSs
+- Set the variable maxLength as the maximum length of the desired gMCSs
 - Execute the order 'gMCSs=createGMCS(_model,_maxLength,_solver="gurobi")'
 
 The necessary parameters, _model and _maxLength, are the model and maxLength defined. Finally the parameter _cplex allows the user to changed the solver to be used.
