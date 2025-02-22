@@ -17,7 +17,9 @@ In order to compute all gMCSs up to a given length for a model, the following st
 
 The necessary parameters, _model and _maxLength, are the model and maxLength defined. Finally the parameter _cplex allows the user to changed the solver to be used.
 
-In the 'Notebooks' directory there are two nontebooks including examples on the use of the module to compute gMCSs and genetic interventions to ensure the coupled growth of a desired bioproducts.
+In the 'Notebooks' directory there are two notebooks including examples on the use of the module to compute gMCSs and genetic interventions to ensure the coupled growth of a desired bioproducts.
+
+We have also included in the directory 'models' the models used in the paper 
 
 
 
