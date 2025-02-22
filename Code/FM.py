@@ -2,13 +2,10 @@
 # coding: utf-8
 
 import cobra
-import time
 import numpy as np
 import more_itertools as mi
 import multiprocessing as mp
-import random
 import gc
-import pickle
 from cobra import Model, Reaction, Metabolite
 
 def identificaTipo(nombre):
