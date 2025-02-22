@@ -7,8 +7,6 @@ The file FM.py contains the code of the algorithm and is located in the 'code' d
 - The Python modules cobra, numpy, more_itertools, multiprocessing and gc
 - A running cplex library or gurobi under Python must be installed in order to run the notebooks.
 
-We have also included the  models used in the folder 'models' and the computed gMCSs for each model in the gMCSs folder. These gMCSs are packed using pickle.
-
 In order to compute all gMCSs up to a given length for a model, the following steps must be followed:
 - Import the model
 - Import the module FM by writing 'import FM'
@@ -19,7 +17,7 @@ The necessary parameters, _model and _maxLength, are the model and maxLength def
 
 In the 'Notebooks' directory there are two notebooks including examples on the use of the module to compute gMCSs and genetic interventions to ensure the coupled growth of a desired bioproducts.
 
-We have also included in the directory 'models' the models used in the paper. The model for Human-GEM is compressed using Pickle.
+We have also included in the directories 'models' and 'gMCSs' the models used in the paper and their corresponding gMCSs. The model for Human-GEM and the sets of gMCSs are compressed using Pickle.
 
 
 
