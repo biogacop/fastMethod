@@ -19,7 +19,7 @@ The necessary parameters, _model and _maxLength, are the model and maxLength def
 
 In the 'Notebooks' directory there are two notebooks including examples on the use of the module to compute gMCSs and genetic interventions to ensure the coupled growth of a desired bioproducts.
 
-We have also included in the directory 'models' the models used in the paper 
+We have also included in the directory 'models' the models used in the paper. The model for Human-GEM is compressed using Pickle.
 
 
 
